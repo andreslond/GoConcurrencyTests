@@ -8,9 +8,9 @@ func main() {
 	c <- "world"
 	//c <- "three"
 
-	msg := <- c
+	msg := <-c
 	fmt.Println(msg)
 
-	msg = <- c
+	msg = <-c
 	fmt.Println(msg)
 }
